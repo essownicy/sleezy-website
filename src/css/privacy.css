@@ -6,19 +6,56 @@
 
 body {
 	background-color: rgb(22, 22, 22);
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
 }
 
-p {
-	color: white;
-	position: absolute;
+nav {
+	font-size: 36px;
+	width: 100%;
+	height: 100%;
 	text-align: center;
-	transform: (50%, 50%);
-	top: 45%;
-	left: 15%;
+	margin-top: 24px;
+}
+
+h1,
+h2 {
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 1.1em;
 }
 
 .heavy {
 	font-weight: bold;
-	color: rgb(0, 255, 200);
+	color:  #fdd422;
 	text-decoration: none;
+}
+
+h1 a {
+	color:  #fdd422;
+}
+
+a {
+	text-decoration: none;
+	background: -webkit-linear-gradient( #fdd422, #FA6820);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.privacy {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
 }
