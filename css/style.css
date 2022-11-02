@@ -15,9 +15,10 @@ body {
 	flex-direction: column;
 	margin: auto;
 	margin-top: 10%;
-	height: 600px;
-	width: 600px;
-	border-radius: 5%;
+	height: auto;
+	width: auto;
+	max-width: 600px;
+	border-radius: 30px;
 	background-color: rgb(30, 30, 30);
 	box-shadow: 0 0 10px 3px #222224;
 }
@@ -60,7 +61,7 @@ h1 {
 
 h2 {
 	font-size: 20px;
-	background: -webkit-linear-gradient( #fdd422, #FA6820);
+	background: -webkit-linear-gradient(#fdd422, #fa6820);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-align: center;
@@ -69,7 +70,7 @@ h2 {
 h3 {
 	text-align: center;
 	font-size: 16px;
-	background: -webkit-linear-gradient( #fdd422, #FA6820);
+	background: -webkit-linear-gradient(#fdd422, #fa6820);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -124,13 +125,14 @@ a {
 }
 
 footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
 	color: white;
 	text-align: center;
 	font-size: 12px;
+	height: auto;
+	width: 100vw;
+	position: fixed;
+	left: 0;
+	bottom: 0;
 }
 
 footer span {
