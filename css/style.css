@@ -7,7 +7,8 @@ a {
 }
 
 body {
-	background-color: rgb(22, 22, 22);
+	background-image: url("/assets/blob-scene-haikei.svg");
+	margin: 0;
 }
 
 .container {
