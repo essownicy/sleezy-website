@@ -11,7 +11,7 @@ Github.com/essownicy/sleezy-website
 }
 
 body {
-	background-color: rgb(22, 22, 22);
+	background-image: url("/assets/blob-scene-haikei.svg");
 	display: grid;
 	justify-items: center;
 	align-items: center;
