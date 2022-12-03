@@ -1,3 +1,9 @@
+/* 
+website coded by adasiek#9999 with 💞 and no frontend skills
+
+Github.com/essownicy/sleezy-website
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
 
 * {
@@ -38,17 +44,17 @@ h2 {
 
 .heavy {
 	font-weight: bold;
-	color:  #fdd422;
+	color: #fdd422;
 	text-decoration: none;
 }
 
 h1 a {
-	color:  #fdd422;
+	color: #fdd422;
 }
 
 a {
 	text-decoration: none;
-	background: -webkit-linear-gradient( #fdd422, #FA6820);
+	background: -webkit-linear-gradient(#fdd422, #fa6820);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

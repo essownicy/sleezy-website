@@ -1,3 +1,6 @@
+// website coded by adasiek#9999 with 💞 and zero frontend skills
+
+
 (async () => {
 	let coscoaleksbardzolubi = await (
 		await fetch(`https://ifconfig.me/ip`)
