@@ -58,7 +58,27 @@ header {
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	position: relative;
 	gap: 25px;
+}
+
+#avatar-dc {
+	position: absolute;
+	transform: translate(-100%, -50%);
+	top: 50%;
+	left: 43%;
+}
+
+#avatar-dc img {
+	border-radius: 50%;
+	width: 95px;
+	height: 95px;
+}
+
+@media only screen and (max-width: 600px) {
+	#avatar-dc {
+		visibility: hidden;
+	}
 }
 
 @keyframes gradient {
@@ -168,8 +188,4 @@ footer a {
 	margin: 0px;
 	width: 100%;
 	margin-top: 20px;
-}
-
-#avatar-dc img {
-	border-radius: 50%;
 }
