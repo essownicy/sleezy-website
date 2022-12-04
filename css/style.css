@@ -51,8 +51,14 @@ h1 {
 	animation: gradient 10s ease-in-out infinite;
 	background-size: 500% 500%;
 	font-size: 48px;
-	text-align: center;
 	height: 60px;
+}
+
+header {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	gap: 25px;
 }
 
 @keyframes gradient {
@@ -162,4 +168,8 @@ footer a {
 	margin: 0px;
 	width: 100%;
 	margin-top: 20px;
+}
+
+#avatar-dc img {
+	border-radius: 50%;
 }
