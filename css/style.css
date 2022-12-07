@@ -75,7 +75,7 @@ header {
 	height: 95px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1500px) {
 	#avatar-dc {
 		visibility: hidden;
 	}
