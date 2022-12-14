@@ -182,10 +182,7 @@ footer a {
 	color: #fff;
 }
 
-.discord-miniprofile {
-	display: flex;
-	justify-content: center;
-	margin: 0px;
-	width: 100%;
-	margin-top: 20px;
+#footer-copyright {
+	font-size: 10px;
+	font-family: monospace;
 }
